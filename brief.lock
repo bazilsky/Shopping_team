@@ -1,33 +1,60 @@
-# Locked brief — external SSD for MacBook Air M5
+# Locked brief — desk monitor for work
 
-Locked: 2026-09-26
+Locked: 2026-09-27
+Changed: 2026-09-27, after the first run
 Region: United Kingdom
 Quantity: 1
-Budget: price under £200 (hard)
+
+The first run required 25.0 to 27.0 inches and a stand depth strictly under 210 mm, the Alienware AW2725Q’s depth with its stand. The recommendation was the ViewSonic VG2756-4K at 202 mm. The shallower 4K row was the MSI PRO MP273U at 181.1 mm.
+
+This change drops the size floor to 24.0 inches and keeps only stands strictly under 180 mm, so every row is shallower than that MSI. Depth is now the first soft preference. A larger screen is last.
+
+Two price bands are separate runs. They share every other constraint. Soft preferences stay off both Shopper packets.
 
 ## Hard constraints
 
-- External solid-state drive. A spinning hard drive does not qualify.
-- Advertised capacity is 2TB or 4TB.
-- USB-C connection that plugs into a MacBook Air M5 Thunderbolt 4 / USB4 port (cable in the box, or a USB-C port on the drive).
-- Sold with delivery to the United Kingdom.
-- Selling price under £200 GBP. A crossed-out higher price does not count.
+- A desktop computer monitor sold with a stand.
+- Advertised viewable diagonal from 24.0 inches through 27.0 inches inclusive. A page that only says “27 inch” or “24 inch” counts as that whole number. A stated diagonal outside that range does not.
+- At least one HDMI input.
+- Advertised depth with stand strictly under 180 mm. The figure must be the depth with the stand, not the panel-only depth and not the box. If the page gives inches, convert (180 mm = 7.09 in) and apply the same cutoff. A monitor whose with-stand depth is missing on the cited page does not pass.
+- New. Refurbished, renewed, used, and open-box do not pass.
+- Sold with delivery to the United Kingdom, and purchasable now (in stock or available to order).
+- Selling price is the GBP price on the page. A crossed-out higher price does not count. Mandatory stated delivery is included when the item price is not the amount the buyer pays.
+
+### Price band A
+
+Selling price strictly under £500.
+
+### Price band B
+
+Selling price from £500 through £1500 inclusive. This band is an alternate list. It is not the purchase recommendation unless band A has no eligible row.
 
 ## Exclusions
 
-- Internal-only drives sold without an enclosure.
-- Capacities other than 2TB and 4TB.
-- Price of £200 or more.
-- Listings that do not ship to the UK.
+- Alienware AW2725Q.
+- Televisions, projectors, tablets, and portable monitors that have no desk stand.
+- Diagonals under 24.0 inches or over 27.0 inches.
+- Depth with stand of 180 mm or more, panel-only depth given as if it were the stand, or depth not stated.
+- No HDMI input.
+- Refurbished, renewed, used, or open-box.
+- Listings that do not ship to the UK, or that are not purchasable now.
+- Band A: price of £500 or more. Band B: price under £500 or over £1500.
 
 ## Soft preferences
 
-Ordered. These stay off the Shopper packet.
+Ordered. These stay off the Shopper packet. The script sorts only after both tables exist.
 
-1. 4TB over 2TB.
-2. Higher advertised sequential read, then higher advertised sequential write.
+1. Shallower advertised depth with stand.
+2. Higher native pixel count.
+3. Panel: OLED or IPS (including IPS Black, Nano IPS, and PLS), then VA, then an unstated panel, then TN.
+4. Higher advertised sRGB coverage. A DCI-P3 figure does not substitute. A percentage above 100 labeled only as sRGB size or CIE 1976 area is not coverage. Missing coverage sorts after any stated coverage.
+5. Larger advertised diagonal.
+6. A stated VESA mount, then no stated VESA mount.
+
+Sponsored or affiliate rows stay in the table and sort after an unsponsored row that ties on these preferences.
 
 ## Route allowlists
 
 Marketplace: amazon.co.uk, ebay.co.uk
-Manufacturer or independent: samsung.com, westerndigital.com, sandisk.com, crucial.com, seagate.com, lacie.com, kingston.com, lexar.com, sabrent.com, scan.co.uk, ebuyer.com, overclockers.co.uk, box.co.uk, novatech.co.uk, cclonline.com, currys.co.uk, johnlewis.com, argos.co.uk
+
+Manufacturer or independent: dell.com, lg.com, samsung.com, benq.com, benq.eu, asus.com, viewsonic.com, iiyama.com, philips.co.uk, philips.com, acer.com, aoc.com, gigabyte.com, msi.com, lenovo.com, hp.com, eizo.com, scan.co.uk, ebuyer.com, overclockers.co.uk, box.co.uk, novatech.co.uk, cclonline.com, currys.co.uk, johnlewis.com, argos.co.uk
